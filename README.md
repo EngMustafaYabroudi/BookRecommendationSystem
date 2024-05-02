@@ -35,3 +35,10 @@ This project is licensed under the MIT License.
 * This project is for educational purposes only.
 * Recommendation results may not be entirely accurate.
 * The project can be improved in several ways, such as using natural language processing techniques to improve the system's understanding of book descriptions.
+
+Sure, here is the project summary in English:
+
+## Book Recommendation System using Flask API
+Project Summary:
+
+This project is a book recommendation system built using Flask API. It utilizes a KNN model trained on a large dataset of books to recommend similar books based on a given input book title.
