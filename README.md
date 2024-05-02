@@ -42,3 +42,4 @@ Sure, here is the project summary in English:
 Project Summary:
 
 This project is a book recommendation system built using Flask API. It utilizes a KNN model trained on a large dataset of books to recommend similar books based on a given input book title.
+http://127.0.0.1:5000/recommendations/{bookTitle}
