@@ -43,3 +43,42 @@ Project Summary:
 
 This project is a book recommendation system built using Flask API. It utilizes a KNN model trained on a large dataset of books to recommend similar books based on a given input book title.
 http://127.0.0.1:5000/recommendations/{bookTitle}
+Sure, here is the updated README with the addition of MySQL usage:
+
+## Book Recommendation System using Spring Boot
+
+**Project Summary:**
+
+This project is a book recommendation system developed using Spring Boot, leveraging Spring Security and Spring Data to create a secure and scalable web application. The system utilizes MySQL as the underlying database for storing and managing user, book, and rating data.
+
+**Key Features:**
+
+1. **User Management System:** The system supports user registration, login, and management with different roles (e.g., reader, admin).
+
+2. **Book Management System:** The system allows adding, editing, and deleting books from the MySQL database.
+
+3. **Book Rating System:** Users can rate books on a scale of 1 to 5. Ratings are stored in the MySQL database.
+
+4. **Book Recommendation System:** The system provides book recommendations based on user preferences and book ratings from other users. Recommendations are generated using algorithms and stored in the MySQL database.
+
+5. **JWT Authentication and Authorization:** The system employs JWT authentication and authorization to secure access to data and functionalities. JWT tokens are stored in the MySQL database.
+
+6. **Swagger Documentation:** The API is documented using Swagger, making it easier for developers to understand and utilize the available functionalities.
+
+**Tech Stack:**
+
+* **Spring Boot:** Java framework for building standalone web applications.
+* **Spring Security:** Spring component for securing applications.
+* **Spring Data JPA:** Spring component for facilitating data access to MySQL database.
+* **MySQL:** Relational database management system for storing and managing data.
+* **JWT:** JSON Web Token-based authentication and authorization technique.
+* **Swagger:** API documentation tool.
+
+**How to Use:**
+
+1. **Clone the project's Git Hub repository.**
+2. **Install the required dependencies, including MySQL Connector.**
+3. **Configure MySQL database connection settings in the application properties.**
+4. **Run the Spring Boot application.**
+5. **Utilize Swagger to explore and use the API.**
+
